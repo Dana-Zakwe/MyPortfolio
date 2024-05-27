@@ -1,4 +1,4 @@
-# MyPortfolio
+# OIBSIP Portfolio
 The header contains the portfolio title and a profile picture, providing a welcoming and personal touch.
 Contact Information section offers essential contact details, including an email address and phone number, making it easy for potential employers or collaborators to get in touch.
 About Me is an introductory section where Andiswa describes her background, educational journey, passion for learning, and professional aspirations. It highlights their enthusiasm for applying their skills in a professional setting and their commitment to personal and professional growth
