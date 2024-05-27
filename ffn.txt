@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Andiswa Zakwe's Portfolio</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    .container {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+    }
+    header {
+      text-align: center;
+      background-color: #4CAF50;
+      color: white;
+      padding: 20px 0;
+      border-radius: 8px 8px 0 0;
+    }
+    .profile-pic {
+      width: 150px;
+      border-radius: 50%;
+      margin: 20px 0;
+      border: 5px solid white;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    .contact {
+      margin-bottom: 20px;
+    }
+    .contact p {
+      margin-bottom: 5px;
+    }
+    .contact a {
+      color: #4CAF50;
+      text-decoration: none;
+    }
+    .contact a:hover {
+      text-decoration: underline;
+    }
+    section {
+      margin-bottom: 20px;
+    }
+    section h2 {
+      border-bottom: 2px solid #4CAF50;
+      padding-bottom: 10px;
+      margin-bottom: 10px;
+    }
+    ul {
+      list-style-type: square;
+      padding-left: 20px;
+    }
+    footer {
+      text-align: center;
+      padding: 10px 0;
+      background-color: #4CAF50;
+      color: white;
+      border-radius: 0 0 8px 8px;
+    }
+    form label {
+      display: block;
+      margin: 10px 0 5px;
+    }
+    form input, form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    form input[type="submit"] {
+      width: auto;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      cursor: pointer;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Andiswa Zakwe's Portfolio</h1>
+    <img src="1708012668378.jpg" alt="Profile" class="profile-pic">
+  </header>
+  
+  <div class="container">
+    <section class="contact">
+      <h2>Contact Information</h2>
+      <p>Email: <a href="mailto:andiswazakwe2709@gmail.com">andiswazakwe2709@gmail.com</a></p>
+      <p>Phone: +(27) 7394 10340</p>
+    </section>
+    
+    <section id="about">
+      <h2>About Me</h2>
+      <p>I am a dedicated student with a strong passion for continuous learning and personal development. Throughout my academic journey, I have actively sought out opportunities to expand my knowledge and skills, both inside and outside the classroom. I thrive in environments where I can apply what I have learned, tackle new challenges, and contribute meaningfully to projects.</p>
+      <p>As I transition from the academic world to the professional realm, I am excited about the prospect of showcasing my capabilities and further honing my expertise in a dynamic working environment. My goal is to leverage my education and experiences to make a significant impact, collaborate with talented individuals, and grow both personally and professionally.</p>
+    </section>
+    
+    <section id="contact-form">
+      <h2>Contact</h2>
+      <form action="mailto:andiswazakwe2709@gmail.com" method="post" enctype="text/plain">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+        <input type="submit" value="Send">
+      </form>
+    </section>
+    
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>Microsoft Access</li>
+        <li>SQL Server</li>
+        <li>Spreadsheet</li>
+        <li>Slide Presentation</li>
+        <li>Microsoft Visual Studio C#</li>
+        <li>HTML Language</li>
+        <li>Microsoft Visual Basic</li>
+      </ul>
+    </section>
+    
+    <section id="linkedin">
+      <h2>My LinkedIn Profile</h2>
+      <p>Find my LinkedIn Profile at: <a href="https://www.linkedin.com/in/andiswa-zakwe-00bb02211?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">LinkedIn Profile</a></p>
+    </section>
+  </div>
+  
+  <footer>
+    <p>&copy; 2024 Andiswa Zakwe</p>
+  </footer>
+</body>
+</html>
